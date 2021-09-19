@@ -1,4 +1,4 @@
-//Code to print july when the number 7 is entered.
+//Code to print the month when the associated number is entered.
 
 import java.util.Scanner;
 public class javaD6 {
