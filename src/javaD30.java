@@ -24,10 +24,5 @@ public class javaD30 {
             System.out.print("Enter a string: ");
             String str2= scan.nextLine();
             System.out.println(ValidUsername(str2));
-
-            Scanner s= new Scanner(System.in);
-            System.out.print("Enter a string: ");
-            String str3= s.nextLine();
-            System.out.println(ValidUsername(str3));
         }
 }
