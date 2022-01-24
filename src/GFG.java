@@ -14,5 +14,12 @@ public class GFG {
         score = score * index;
         return score;
     }
-
+    public static void main (String[] args) {
+        String str[] = { "sahil", "shashanak"
+                , "sanj", "abhinav", "mohit" };
+        String s = "abhinav";
+        int n = str.length;
+        int score = strScore(str, s, n);
+        System.out.println( score);
+    }
 }
