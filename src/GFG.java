@@ -1,0 +1,18 @@
+import java.io.*;
+public class GFG {
+    static int strScore(String str[], String s, int n)
+    {
+        int score = 0, index=0;
+        for (int i = 0; i < n; i++) {
+            if (str[i] == s) {
+                for (int j = 0; j < s.length(); j++)
+                    score += s.charAt(j) - 'a' + 1;
+                index = i + 1;
+                break;
+            }
+        }
+        score = score * index;
+        return score;
+    }
+
+}
